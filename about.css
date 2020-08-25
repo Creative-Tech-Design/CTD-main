@@ -1,0 +1,243 @@
+.ctd-nav {
+    width: 71px;
+    height: 46px;
+    margin-bottom: -60px;
+    margin-left: 33px;
+}
+
+.navbar-end {
+    margin-left: 769px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    color: #021F42;
+}
+
+.nav-line {
+    margin-top: 31px;
+    border: 1px solid #D8D8D8;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.about {
+    margin-left: 176px;
+    margin-top: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.741px;
+    line-height: 58px;
+    /* midlle */
+    color: #4352B1;
+}
+
+.about-mac {
+    background-image: url(../img/about-mac.png);
+    height: 285px;
+    width: 420px;
+    position: absolute;
+    left: 60%;
+    top: 234px;
+}
+
+.description {
+    margin-right: 50%;
+    margin-left: 176px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.2446px;
+    line-height: 32px;
+    /* grey */
+    color: #272727;
+}
+
+.graphic {
+    background-image: url(../img/graphic-about.png);
+    height: 210px;
+    width: 670px;
+    margin-top: 40px;
+}
+
+.blue-rectangle {
+    background-image: url(../img/blue-rectangle.png);
+    position: absolute;
+    width: 100%;
+    height: 1142px;
+    top: 795px;
+}
+
+.heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 24px;
+    /* or 48% */
+    color: #4352B1;
+    position: absolute;
+    top: 855px;
+    left: 42%
+}
+
+.person-1 {
+    position: absolute;
+    left: 10%;
+    top: 140%;
+    bottom: 27.24%;
+}
+
+.person-1 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-1 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-2 {
+    position: absolute;
+    left: 32%;
+    top: 140%;
+    bottom: 27.24%;
+}
+
+.person-2 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-2 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-3 {
+    position: absolute;
+    left: 54%;
+    top: 140%;
+    bottom: 27.24%;
+}
+
+.person-3 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-3 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-4 {
+    position: absolute;
+    left: 76%;
+    top: 140%;
+    bottom: 27.24%;
+}
+
+.person-4 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-4 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.join-team {
+    margin-top: 1350px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48.645px;
+    line-height: 23px;
+    /* or 48% */
+    color: #4352B1;
+    text-align: center;
+}
+
+.join-description {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 120% */
+    text-align: center;
+    color: #000000;
+}
+
+.socials-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 41%;
+    margin-right: 41%;
+}
+
+.line {
+    border: 1px solid #D8D8D8;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 50px;
+}
+
+.closer {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #4352B1;
+}
