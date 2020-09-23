@@ -2,11 +2,11 @@
     width: 71px;
     height: 46px;
     margin-bottom: -60px;
-    margin-left: 33px;
+    margin-left: 0px;
 }
 
 .navbar-end {
-    margin-left: 769px;
+    margin-left: 669px;
     display: flex;
     margin-top: 30px;
     justify-content: space-around;
@@ -25,30 +25,43 @@
 }
 
 body {
-    padding: 0px 0px 102px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .resources {
-    margin-top: 110px;
+    margin-top: 75px;
     margin-left: 171px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
-    font-size: 38.7755px;
+    font-weight: 600;
+    font-size: 38px;
     line-height: 58px;
     /* midlle */
     color: #4352B1;
 }
 
 .extra {
-    margin-top: 10px;
+    margin-right: 40%;
+    margin-top: 35px;
+    margin-left: 176px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    /* grey */
+    color: #272727;
+}
+
+.now {
+    margin-top: 50px;
     margin-left: 171px;
     margin-right: 40%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 41px;
+    font-size: 27px;
+    line-height: 32px;
     /* grey */
     color: #272727;
 }
@@ -58,8 +71,8 @@ body {
     margin-left: 163px;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 32px;
     line-height: 24px;
     /* or 60% */
     color: #4352B1;
