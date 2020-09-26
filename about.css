@@ -1,25 +1,115 @@
-.ctd-nav {
-    width: 71px;
-    height: 46px;
-    margin-bottom: -60px;
-    margin-left: 0px;
+.header {
+    margin-top: -8px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
-.navbar-end {
-    margin-left: 669px;
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-around;
-    font-family: Avenir;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 34px;
-    color: #021F42;
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+}
+
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 340px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+.ctd-nav {
+    margin-top: 10px;
 }
 
 .nav-line {
-    margin-top: 31px;
     border: 1px solid #D8D8D8;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -46,7 +136,7 @@
 }
 
 .description {
-    margin-right: 50%;
+    margin-right: 43%;
     margin-top: 35px;
     margin-left: 176px;
     font-family: Avenir;
@@ -69,8 +159,8 @@
     background-image: url(./img/blue-rectangle.png);
     position: absolute;
     width: 100%;
-    height: 1142px;
-    top: 795px;
+    height: 1225px;
+    top: 625px;
 }
 
 .heading {
@@ -82,14 +172,14 @@
     /* or 48% */
     color: #4352B1;
     position: absolute;
-    top: 855px;
-    left: 42%
+    top: 680px;
+    left: 42%;
 }
 
 .person-1 {
     position: absolute;
     left: 10%;
-    top: 950px;
+    top: 750px;
 }
 
 .person-1 p {
@@ -116,7 +206,7 @@
 .person-2 {
     position: absolute;
     left: 32%;
-    top: 950px;
+    top: 750px;
 }
 
 .person-2 p {
@@ -143,7 +233,7 @@
 .person-3 {
     position: absolute;
     left: 54%;
-    top: 950px;
+    top: 750px;
 }
 
 .person-3 p {
@@ -170,7 +260,7 @@
 .person-4 {
     position: absolute;
     left: 76%;
-    top: 950px;
+    top: 750px;
 }
 
 .person-4 p {
@@ -184,6 +274,222 @@
 }
 
 .person-4 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-5 {
+    position: absolute;
+    left: 10%;
+    top: 1100px;
+}
+
+.person-5 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-5 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-6 {
+    position: absolute;
+    left: 32%;
+    top: 1100px;
+}
+
+.person-6 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-6 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-7 {
+    position: absolute;
+    left: 54%;
+    top: 1100px;
+}
+
+.person-7 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-7 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-8 {
+    position: absolute;
+    left: 76%;
+    top: 1100px;
+}
+
+.person-8 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-8 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-9 {
+    position: absolute;
+    left: 10%;
+    top: 1450px;
+}
+
+.person-9 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-9 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-10 {
+    position: absolute;
+    left: 32%;
+    top: 1450px;
+}
+
+.person-10 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-10 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-11 {
+    position: absolute;
+    left: 54%;
+    top: 1450px;
+}
+
+.person-11 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-11 p1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height, or 96% */
+    color: #000000;
+    margin-left: 53px;
+}
+
+.person-12 {
+    position: absolute;
+    left: 76%;
+    top: 1450px;
+}
+
+.person-12 p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 24px;
+    /* identical to box height, or 86% */
+    margin-left: 63px;
+}
+
+.person-12 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -272,4 +578,461 @@
     text-align: center;
     color: #4352B1;
     margin-bottom: 102px;
+}
+
+@media only screen and (max-width: 750px) {
+    .about {
+        margin-left: 53px;
+        margin-top: 75px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .about-mac {
+        background-image: url(./img/about-mac.png);
+        height: 20%;
+        width: 20%;
+        position: absolute;
+        left: 20%;
+        top: 234px;
+    }
+    .description {
+        margin-right: 30%;
+        margin-top: 35px;
+        margin-left: 53px;
+        font-family: Avenir;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .graphic {
+        background-image: url(./img/graphic-about.png);
+        height: 150px;
+        width: 350px;
+        margin-top: 40px;
+    }
+    .blue-rectangle {
+        background-image: url(./img/blue-rectangle.png);
+        position: absolute;
+        width: 100%;
+        height: 1225px;
+        top: 425px;
+    }
+    .heading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        /* or 48% */
+        color: #4352B1;
+        position: absolute;
+        top: 480px;
+        left: 42%;
+    }
+    .for {
+        width: 101px;
+        height: 101px;
+    }
+    .person-1 {
+        position: absolute;
+        left: 10%;
+        top: 650px;
+    }
+    .person-1 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-1 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-2 {
+        position: absolute;
+        left: 32%;
+        top: 750px;
+    }
+    .person-2 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-2 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-3 {
+        position: absolute;
+        left: 54%;
+        top: 750px;
+    }
+    .person-3 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-3 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-4 {
+        position: absolute;
+        left: 76%;
+        top: 750px;
+    }
+    .person-4 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-4 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-5 {
+        position: absolute;
+        left: 10%;
+        top: 1100px;
+    }
+    .person-5 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-5 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-6 {
+        position: absolute;
+        left: 32%;
+        top: 1100px;
+    }
+    .person-6 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-6 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-7 {
+        position: absolute;
+        left: 54%;
+        top: 1100px;
+    }
+    .person-7 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-7 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-8 {
+        position: absolute;
+        left: 76%;
+        top: 1100px;
+    }
+    .person-8 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-8 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-9 {
+        position: absolute;
+        left: 10%;
+        top: 1450px;
+    }
+    .person-9 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-9 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-10 {
+        position: absolute;
+        left: 32%;
+        top: 1450px;
+    }
+    .person-10 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-10 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-11 {
+        position: absolute;
+        left: 54%;
+        top: 1450px;
+    }
+    .person-11 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-11 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .person-12 {
+        position: absolute;
+        left: 76%;
+        top: 1450px;
+    }
+    .person-12 p {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 24px;
+        /* identical to box height, or 86% */
+        margin-left: 63px;
+    }
+    .person-12 p1 {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+        /* identical to box height, or 96% */
+        color: #000000;
+        margin-left: 53px;
+    }
+    .join-team {
+        font-size: 18px;
+        line-height: 23px;
+        /* or 130% */
+    }
+    .join-description {
+        margin-top: 25px;
+        font-size: 15px;
+        line-height: 30px;
+        /* or 200% */
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .apply {
+        background: #FF664D;
+        border-radius: 40px;
+        width: 160px;
+        height: 32px;
+        margin-top: 30px;
+        margin-left: 35%;
+        margin-right: 40%;
+        text-align: center;
+    }
+    .apply p1 {
+        font-size: 12.5px;
+        line-height: 30px;
+    }
+    .keep {
+        margin-top: 65px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .socials-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .line {
+        border: 1px solid #D8D8D8;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin-top: 50px;
+    }
+    .closer {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+
+/* section */
+
+.section {
+    overflow: hidden;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.section a {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.section a img {
+    width: 100%;
+    display: block;
+}
+
+.section a span {
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 2em;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.section-split a span {
+    display: none;
+}
+
+.section-split a:hover span {
+    display: block;
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .section-split a {
+        width: 50%;
+    }
 }

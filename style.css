@@ -142,14 +142,13 @@ body {
 .description {
     margin-top: 12px;
     margin-left: 158px;
-    margin-right: 561px;
+    margin-right: 40%;
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 41px;
     color: #000000;
-    margin-right: 491px;
 }
 
 .upcoming {
@@ -166,7 +165,7 @@ body {
 
 .fb_top {
     position: absolute;
-    right: 20%;
+    right: 30%;
     top: 32%;
     width: 48px;
     height: 48px;
@@ -174,7 +173,7 @@ body {
 
 .yt_top {
     position: absolute;
-    right: 20%;
+    right: 30%;
     top: 42%;
     width: 48px;
     height: 48px;
@@ -182,7 +181,7 @@ body {
 
 .link_top {
     position: absolute;
-    right: 20%;
+    right: 30%;
     top: 52%;
     width: 48px;
     height: 48px;
@@ -190,20 +189,18 @@ body {
 
 .drib_top {
     position: absolute;
-    right: 20%;
+    right: 30%;
     top: 62%;
     width: 48px;
     height: 48px;
 }
-
-.logo {}
 
 .logo__w {
     position: absolute;
     width: 302px;
     height: 250.28px;
     left: 40%;
-    top: 800px;
+    top: 680px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -217,7 +214,7 @@ body {
 }
 
 .foster {
-    margin-top: -800px;
+    margin-top: -850px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
@@ -226,12 +223,14 @@ body {
     /* or 126% */
     text-align: center;
     color: #021F42;
-    margin-left: 262px;
-    margin-right: 241px;
+    margin-left: 22%;
+    margin-right: 20%;
 }
 
 .what {
-    margin-top: 475px;
+    position: absolute;
+    top: 1650px;
+    left: 40%;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -239,17 +238,16 @@ body {
     line-height: 70px;
     /* identical to box height */
     color: #021F42;
-    margin-left: 262px;
-    margin-right: 241px;
-    text-align: center;
 }
 
 .one {
-    margin-left: 250px;
-    margin-top: 20px;
+    position: absolute;
+    top: 1750px;
+    left: 20%;
     font-family: Avenir;
     font-style: normal;
     text-align: left;
+    float: left;
     width: 30%;
 }
 
@@ -275,12 +273,13 @@ body {
 }
 
 .two {
-    margin-top: -13%;
-    margin-right: 150px;
+    position: absolute;
+    top: 1750px;
+    left: 55%;
     font-family: Avenir;
     font-style: normal;
     text-align: left;
-    float: right;
+    float: left;
     width: 30%;
 }
 
@@ -306,11 +305,13 @@ body {
 }
 
 .three {
-    margin-left: 250px;
-    margin-top: 75px;
+    position: absolute;
+    top: 2050px;
+    left: 20%;
     font-family: Avenir;
     font-style: normal;
     text-align: left;
+    float: left;
     width: 30%;
 }
 
@@ -336,12 +337,13 @@ body {
 }
 
 .four {
-    margin-right: 150px;
-    margin-top: -248px;
+    position: absolute;
+    top: 2050px;
+    left: 55%;
     font-family: Avenir;
     font-style: normal;
     text-align: left;
-    float: right;
+    float: left;
     width: 30%;
 }
 
@@ -372,7 +374,7 @@ body {
     width: 257px;
     height: 48px;
     text-align: center;
-    margin-top: 107px;
+    margin-top: 1300px;
     margin-left: 600px;
 }
 
@@ -509,34 +511,11 @@ body {
 */
 
 @media only screen and (max-width: 750px) {
-    .ctd-nav {
-        width: 71px;
-        height: 46px;
-        margin-bottom: -60px;
-        margin-left: 33px;
-    }
-    .navbar-end {
-        margin-left: 769px;
-        display: flex;
-        margin-top: 30px;
-        justify-content: space-around;
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 25px;
-        line-height: 34px;
-        color: #021F42;
-    }
-    .nav-line {
-        margin-top: 31px;
-        border: 1px solid #D8D8D8;
-        transform: matrix(1, 0, 0, 1, 0, 0);
-    }
     body {
         padding: 0px 0px 102px 0px;
     }
     .title {
-        margin-top: 41px;
+        margin-top: 91px;
         margin-left: 31px;
         font-weight: 600;
         font-size: 18px;
@@ -544,13 +523,13 @@ body {
     }
     .sub {
         margin-left: 31px;
-        font-size: 30px;
+        font-size: 14px;
         line-height: 19px;
     }
     .description {
         margin-top: 12px;
         margin-left: 31px;
-        margin-right: 341px;
+        margin-right: 150px;
         font-weight: 500;
         font-size: 14px;
         line-height: 19px;
@@ -564,29 +543,29 @@ body {
     }
     .fb_top {
         position: absolute;
-        right: 45%;
-        top: 32%;
+        right: 20%;
+        top: 16%;
         width: 21px;
         height: 21px;
     }
     .yt_top {
         position: absolute;
-        right: 45%;
-        top: 37%;
+        right: 20%;
+        top: 20%;
         width: 21px;
         height: 21px;
     }
     .link_top {
         position: absolute;
-        right: 45%;
-        top: 42%;
+        right: 20%;
+        top: 24%;
         width: 21px;
         height: 21px;
     }
     .drib_top {
         position: absolute;
-        right: 45%;
-        top: 47%;
+        right: 20%;
+        top: 28%;
         width: 21px;
         height: 21px;
     }
@@ -596,7 +575,7 @@ body {
         width: 110px;
         height: 90px;
         left: 40%;
-        top: 400px;
+        top: 280px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .vector {
@@ -608,222 +587,158 @@ body {
         background-size: cover;
     }
     .foster {
-        margin-top: -350px;
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
+        margin-top: -320px;
+        margin-left: 19%;
+        margin-right: 19%;
+        position: aboslute;
+        line-height: 18px;
+        top: 300px;
+        right: 50px;
         font-size: 14px;
-        line-height: 19px;
-        /* or 126% */
-        text-align: center;
         color: #021F42;
-        margin-left: 120px;
-        margin-right: 120px;
     }
     .what {
-        margin-top: 475px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 47px;
-        line-height: 70px;
-        /* identical to box height */
-        color: #021F42;
-        margin-left: 262px;
-        margin-right: 241px;
-        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        position: absolute;
+        top: 700px;
+        left: 40%;
     }
     .one {
-        margin-left: 250px;
-        margin-top: 20px;
-        font-family: Avenir;
-        font-style: normal;
-        text-align: left;
-        width: 30%;
+        position: absolute;
+        top: 750px;
+        left: 15%;
+        width: 35%;
     }
     .one p1 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 38px;
-        color: #FF664D;
+        font-size: 11px;
+        line-height: 15px;
     }
     .one p2 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 48px;
-        color: #393939;
+        font-size: 13px;
+        line-height: 18px;
     }
     .one p3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 27px;
-        color: #525252;
+        font-size: 13px;
+        line-height: 18px;
     }
     .two {
-        margin-top: -13%;
-        margin-right: 150px;
-        font-family: Avenir;
-        font-style: normal;
-        text-align: left;
-        float: right;
-        width: 30%;
+        position: absolute;
+        top: 750px;
+        left: 62%;
+        width: 35%;
     }
     .two p1 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 38px;
-        color: #FF664D;
+        font-size: 11px;
+        line-height: 15px;
     }
     .two p2 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 48px;
-        color: #393939;
+        font-size: 13px;
+        line-height: 18px;
     }
     .two p3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 27px;
-        color: #525252;
+        font-size: 13px;
+        line-height: 18px;
     }
     .three {
-        margin-left: 250px;
-        margin-top: 75px;
-        font-family: Avenir;
-        font-style: normal;
-        text-align: left;
-        width: 30%;
+        position: absolute;
+        top: 1000px;
+        left: 15%;
+        width: 35%;
     }
     .three p1 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 38px;
-        color: #FF664D;
+        font-size: 11px;
+        line-height: 15px;
     }
     .three p2 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 48px;
-        color: #393939;
+        font-size: 13px;
+        line-height: 18px;
     }
     .three p3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 27px;
-        color: #525252;
+        font-size: 13px;
+        line-height: 18px;
     }
     .four {
-        margin-right: 150px;
-        margin-top: -248px;
-        font-family: Avenir;
-        font-style: normal;
-        text-align: left;
-        float: right;
-        width: 30%;
+        position: absolute;
+        top: 1000px;
+        left: 62%;
+        width: 35%;
     }
     .four p1 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 38px;
-        color: #FF664D;
+        font-size: 11px;
+        line-height: 15px;
     }
     .four p2 {
-        font-weight: 800;
-        font-size: 30px;
-        line-height: 48px;
-        color: #393939;
+        font-size: 13px;
+        line-height: 18px;
     }
     .four p3 {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 27px;
-        color: #525252;
+        font-size: 13px;
+        line-height: 18px;
     }
     .resources {
         background: #FF664D;
         border-radius: 40px;
-        width: 257px;
-        height: 48px;
+        width: 160px;
+        height: 30px;
         text-align: center;
-        margin-top: 107px;
-        margin-left: 600px;
+        margin-top: 830px;
+        margin-left: 35%;
     }
     .resources p1 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 45px;
-        color: #FFFFFF;
+        font-size: 12.5px;
+        line-height: 30px;
     }
     .graphic {
-        background-image: url(img/graphic.png);
-        height: 303px;
-        width: 900px;
-        margin-top: 120px;
+        display: none;
     }
     .join {
-        width: 267px;
-        height: 267px;
-        margin-top: -100px;
+        width: 237px;
+        height: 220px;
+        margin-top: 50px;
         background: #DEE7FE;
         border-radius: 30px;
         text-align: center;
-        margin-left: 120px;
-        padding: 50px 41px 43px 44px;
+        margin-left: 18%;
+        padding: 30px 41px 43px 44px;
     }
     .join p1 {
-        margin-top: 200px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 47px;
-        line-height: 70px;
-        color: #021F42;
+        font-size: 14px;
+        line-height: 41px;
     }
     .join p2 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 34px;
-        color: #021F42;
-        margin-top: 10px;
+        font-size: 13px;
+        line-height: 18px;
     }
     .connect {
         background: #FF664D;
         border-radius: 40px;
-        width: 257px;
-        height: 48px;
+        width: 160px;
+        height: 30px;
         text-align: center;
-        margin-top: -100px;
-        margin-left: 825px;
+        margin-top: -70px;
+        margin-left: 33%;
     }
     .connect p1 {
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
-        line-height: 45px;
+        font-size: 12.5px;
+        line-height: 30px;
         color: #FFFFFF;
     }
     .keep {
-        margin-top: 167px;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
+        margin-top: 65px;
+        font-size: 18px;
         line-height: 24px;
-        /* or 60% */
-        color: #021F42;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .socials-1 {
         display: flex;
         justify-content: space-between;
-        margin-left: 41%;
-        margin-right: 41%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
     .line {
         border: 1px solid #D8D8D8;
@@ -831,12 +746,9 @@ body {
         margin-top: 50px;
     }
     .closer {
-        font-family: Poppins;
-        font-style: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
-        text-align: center;
-        color: #4352B1;
+        margin-bottom: -80px;
     }
 }
 
