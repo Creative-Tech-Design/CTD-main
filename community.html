@@ -73,7 +73,7 @@
     </div>
     <div class="news">
         <p1>Our Newsletter</p1> <br><br>
-        <p2>Join our newsletter to keep up with all things CTD and get exclusive resources</p2> <br><br><br>
+        <p2>Join our newsletter to keep up with all things CTD and get exclusive resources</p2> <br><br>
         <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
         <style type="text/css">
@@ -85,8 +85,17 @@
                 box-sizing: border-box;
                 border-radius: 30px;
             }
-            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            
+            @media only screen and (max-width: 750px) {
+                #mc_embed_signup {
+                    margin-left: 30px;
+                    margin-right: 30px;
+                    font-family: Avenir;
+                    border: 3px solid #021F42;
+                    box-sizing: border-box;
+                    border-radius: 30px;
+                }
+            }
         </style>
         <div id="mc_embed_signup">
             <form action="https://ucsc.us19.list-manage.com/subscribe/post?u=aa9ca626dc53ac79755d07a68&amp;id=1ef647652a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>

@@ -258,7 +258,6 @@
     line-height: 24px;
     /* or 62% */
     color: #021F42;
-    margin-bottom: 100px;
 }
 
 .news p2 {
@@ -286,6 +285,125 @@
     text-align: center;
     color: #4352B1;
     margin-bottom: 102px;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        padding: 0px 0px 0px 0px;
+    }
+    .head {
+        margin-left: 53px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .vector {
+        margin-top: -900px;
+        background-image: url(./img/blue.png);
+        width: 100%;
+        left: 500px;
+        height: 1730px;
+        background-size: cover;
+    }
+    .sub1 {
+        margin-left: 53px;
+        margin-right: 20%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .sub2 {
+        margin-left: 53px;
+        margin-right: 20%;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .logo-blue {
+        background-image: url(./img/logo-blue.png);
+        position: absolute;
+        left: 67%;
+        top: 120px;
+        width: 0;
+        height: 0;
+    }
+    .sm {
+        font-size: 17px;
+        line-height: 24px;
+        color: #021F42;
+        margin-left: 53px;
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    .fb {
+        font-size: 13px;
+        line-height: -155px;
+    }
+    .fb_top {
+        margin-top: 10px;
+        margin-left: 65px;
+        margin-right: 14px;
+        width: 22px;
+        height: 22px;
+    }
+    .yt_top {
+        margin-top: 10px;
+        margin-left: 65px;
+        margin-right: 14px;
+        width: 22px;
+        height: 22px;
+    }
+    .link_top {
+        margin-top: 10px;
+        margin-left: 65px;
+        margin-right: 14px;
+        width: 22px;
+        height: 22px;
+    }
+    .drib_top {
+        margin-top: 10px;
+        margin-left: 65px;
+        margin-right: 14px;
+        width: 22px;
+        height: 22px;
+    }
+    .clear {
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        /* or 120% */
+        color: #FFFFFF;
+    }
+    .news {
+        font-family: Avenir;
+        padding: 10px 15px 0px 15px;
+        position: absolute;
+        width: 200px;
+        height: 360px;
+        left: 35%;
+        top: 580px;
+        background: #FBFBFB;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .news p1 {
+        font-size: 18px;
+        line-height: 0px;
+        text-align: center;
+    }
+    .news p2 {
+        font-size: 13px;
+        line-height: 0px;
+    }
+    .line {
+        border: 1px solid #D8D8D8;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin-top: -60px;
+    }
+    .closer {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: -80px;
+    }
 }
 
 @media (min-width: 48em) {
