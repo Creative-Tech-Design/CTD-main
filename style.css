@@ -374,8 +374,8 @@ body {
     width: 257px;
     height: 48px;
     text-align: center;
-    margin-top: 1300px;
-    margin-left: 600px;
+    margin-top: 1270px;
+    margin-left: 40%;
 }
 
 .resources p1 {
@@ -717,7 +717,7 @@ body {
         height: 30px;
         text-align: center;
         margin-top: -70px;
-        margin-left: 33%;
+        margin-left: 35vw;
     }
     .connect p1 {
         font-family: Poppins;
