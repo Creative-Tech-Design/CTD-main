@@ -115,7 +115,7 @@
 }
 
 body {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
 }
 
 .resources {
@@ -131,7 +131,7 @@ body {
 }
 
 .extra {
-    margin-right: 40%;
+    margin-right: 34%;
     margin-top: 35px;
     margin-left: 176px;
     font-family: Avenir;
@@ -201,6 +201,59 @@ body {
     line-height: 24px;
     text-align: center;
     color: #4352B1;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        padding: 0px 0px 102px 0px;
+    }
+    .resources {
+        margin-top: 75px;
+        margin-left: 53px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .extra {
+        margin-right: 18%;
+        margin-left: 55px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .now {
+        margin-right: 20%;
+        margin-left: 55px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .text {
+        margin-top: 60px;
+        margin-left: 55px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .keep {
+        margin-top: 65px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .socials-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .line {
+        border: 1px solid #D8D8D8;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin-top: 50px;
+    }
+    .closer {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: -80px;
+    }
 }
 
 @media (min-width: 48em) {
