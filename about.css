@@ -116,7 +116,7 @@
 
 .about {
     margin-left: 176px;
-    margin-top: 75px;
+    margin-top: 125px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -152,7 +152,7 @@
     background-image: url(./img/graphic-about.png);
     height: 210px;
     width: 670px;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .blue-rectangle {
