@@ -140,7 +140,7 @@ body {
 }
 
 .description {
-    margin-top: 12px;
+    margin-top: 7px;
     margin-left: 158px;
     margin-right: 40%;
     font-family: Avenir;
@@ -152,7 +152,7 @@ body {
 }
 
 .upcoming {
-    margin-top: 12px;
+    margin-top: 35px;
     margin-left: 158px;
     font-family: Avenir;
     font-style: normal;
@@ -200,7 +200,7 @@ body {
     width: 302px;
     height: 250.28px;
     left: 40%;
-    top: 830px;
+    top: 800px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
