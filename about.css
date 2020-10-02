@@ -127,12 +127,12 @@
 }
 
 .about-mac {
-    background-image: url(./img/about-mac.png);
+    background-image: url(./img/baskin.png);
     height: 285px;
-    width: 420px;
+    width: 407px;
     position: absolute;
     left: 60%;
-    top: 234px;
+    top: 190px;
 }
 
 .description {
@@ -186,21 +186,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 37px;
 }
 
 .person-1 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 40px;
 }
 
 .person-2 {
@@ -213,21 +213,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 39px;
 }
 
 .person-2 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 47px;
 }
 
 .person-3 {
@@ -240,21 +240,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 40px;
 }
 
 .person-3 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 44px;
 }
 
 .person-4 {
@@ -267,21 +267,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 35px;
 }
 
 .person-4 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 27px;
 }
 
 .person-5 {
@@ -294,21 +294,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 21px;
 }
 
 .person-5 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 11px;
 }
 
 .person-6 {
@@ -321,21 +321,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 26px;
 }
 
 .person-6 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 47px;
 }
 
 .person-7 {
@@ -348,21 +348,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 25px;
 }
 
 .person-7 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 51px;
 }
 
 .person-8 {
@@ -375,26 +375,26 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 26px;
 }
 
 .person-8 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 66px;
 }
 
 .person-9 {
     position: absolute;
-    left: 10%;
+    left: 21%;
     top: 1450px;
 }
 
@@ -402,26 +402,26 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 41px;
 }
 
 .person-9 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 65px;
 }
 
 .person-10 {
     position: absolute;
-    left: 32%;
+    left: 43%;
     top: 1450px;
 }
 
@@ -429,26 +429,26 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 26px;
 }
 
 .person-10 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 57px;
 }
 
 .person-11 {
     position: absolute;
-    left: 54%;
+    left: 65%;
     top: 1450px;
 }
 
@@ -456,21 +456,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 23px;
 }
 
 .person-11 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 58px;
 }
 
 .person-12 {
@@ -483,21 +483,21 @@
     font-family: Avenir;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 24px;
     /* identical to box height, or 86% */
-    margin-left: 63px;
+    margin-left: 47px;
 }
 
 .person-12 p1 {
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 24px;
     /* identical to box height, or 96% */
     color: #000000;
-    margin-left: 53px;
+    margin-left: 40px;
 }
 
 .join-team {
@@ -614,7 +614,7 @@
         background-image: url(./img/blue-rectangle.png);
         position: absolute;
         width: 100%;
-        height: 1225px;
+        height: 1425px;
         top: 425px;
     }
     .heading {
@@ -635,267 +635,168 @@
     }
     .person-1 {
         position: absolute;
-        left: 10%;
-        top: 650px;
+        left: 21%;
+        top: 530px;
     }
     .person-1 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: 4px;
     }
     .person-1 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 14px;
     }
     .person-2 {
         position: absolute;
-        left: 32%;
-        top: 750px;
+        left: 62%;
+        top: 530px;
     }
     .person-2 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: 0px;
     }
     .person-2 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 15px;
     }
     .person-3 {
         position: absolute;
-        left: 54%;
+        left: 21%;
         top: 750px;
     }
     .person-3 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -2px;
     }
     .person-3 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 8px;
     }
     .person-4 {
         position: absolute;
-        left: 76%;
+        left: 62%;
         top: 750px;
     }
     .person-4 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -8px;
     }
     .person-4 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: -2px;
     }
     .person-5 {
         position: absolute;
-        left: 10%;
-        top: 1100px;
+        left: 21%;
+        top: 970px;
     }
     .person-5 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -11px;
     }
     .person-5 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: -8px;
     }
     .person-6 {
         position: absolute;
-        left: 32%;
-        top: 1100px;
+        left: 62%;
+        top: 970px;
     }
     .person-6 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -11px;
     }
     .person-6 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 14px;
     }
     .person-7 {
         position: absolute;
-        left: 54%;
-        top: 1100px;
+        left: 21%;
+        top: 1190px;
     }
     .person-7 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -20px;
     }
     .person-7 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 15px;
     }
     .person-8 {
         position: absolute;
-        left: 76%;
-        top: 1100px;
+        left: 62%;
+        top: 1190px;
     }
     .person-8 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -13px;
     }
     .person-8 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 27px;
     }
     .person-9 {
         position: absolute;
-        left: 10%;
-        top: 1450px;
+        left: 21%;
+        top: 1410px;
     }
     .person-9 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -1px;
     }
     .person-9 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 24px;
     }
     .person-10 {
         position: absolute;
-        left: 32%;
-        top: 1450px;
+        left: 62%;
+        top: 1410px;
     }
     .person-10 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -12px;
     }
     .person-10 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 22px;
     }
     .person-11 {
         position: absolute;
-        left: 54%;
-        top: 1450px;
+        left: 41.5%;
+        top: 1630px;
     }
     .person-11 p {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 24px;
-        /* identical to box height, or 86% */
-        margin-left: 63px;
+        margin-left: -17px;
     }
     .person-11 p1 {
-        font-family: Avenir;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 25px;
+        font-size: 14px;
         line-height: 24px;
-        /* identical to box height, or 96% */
-        color: #000000;
-        margin-left: 53px;
+        margin-left: 22px;
     }
     .person-12 {
         position: absolute;
@@ -922,6 +823,7 @@
         margin-left: 53px;
     }
     .join-team {
+        margin-top: 1480px;
         font-size: 18px;
         line-height: 23px;
         /* or 130% */
