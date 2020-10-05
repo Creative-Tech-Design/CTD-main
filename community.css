@@ -486,10 +486,10 @@ div#mce-success-response {
     .hi {
         padding: 0px 30px 0px 30px;
         position: absolute;
-        width: 220px;
+        width: 180px;
         height: 350px;
-        left: 130px;
-        top: 650px;
+        left: 110px;
+        top: 670px;
         background: #FBFBFB;
         border-radius: 30px;
     }
@@ -504,7 +504,7 @@ div#mce-success-response {
     #mc_embed_signup_scroll {
         width: 100%;
         max-width: 28rem;
-        margin-left: 25px;
+        margin-left: 12px;
     }
     #mc_embed_signup_scroll .gridformat {
         display: grid;
@@ -516,7 +516,7 @@ div#mce-success-response {
         border: solid 2px black;
         padding: 0.75rem 1.25rem;
         margin-top: -0.25rem;
-        width: 80%;
+        width: 90%;
     }
     #mc_embed_signup_scroll .gridformat>input:first-of-type {
         border-top-left-radius: 2rem;
