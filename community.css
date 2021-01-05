@@ -116,7 +116,7 @@
 
 .head {
     margin-top: 125px;
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
@@ -171,14 +171,14 @@
 }
 
 .sm {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 38.78px;
     line-height: 24px;
     /* or 62% */
     color: #021F42;
-    margin-left: 240px;
+    margin-left: 220px;
     margin-top: 140px;
     margin-bottom: 30px;
 }
@@ -244,7 +244,7 @@
 }
 
 .closer {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
@@ -265,7 +265,7 @@
 }
 
 .hi h1 {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;

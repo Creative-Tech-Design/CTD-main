@@ -117,7 +117,7 @@
 .about {
     margin-left: 176px;
     margin-top: 125px;
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
@@ -151,7 +151,7 @@
 .graphic {
     background-image: url(./img/graphic-about.png);
     height: 210px;
-    width: 670px;
+    width: 550px;
     margin-top: 25px;
 }
 
@@ -164,7 +164,7 @@
 }
 
 .heading {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
@@ -505,7 +505,7 @@
 
 .join-team {
     margin-top: 1350px;
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48.645px;
@@ -539,7 +539,7 @@
 }
 
 .apply p1 {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -549,7 +549,7 @@
 
 .keep {
     margin-top: 167px;
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -574,7 +574,7 @@
 }
 
 .closer {
-    font-family: Poppins;
+    font-family: sofia-pro, sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
@@ -607,7 +607,7 @@
         background-image: url(./img/graphic-about.png);
         height: 150px;
         width: 350px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .blue-rectangle {
         background-image: url(./img/blue-rectangle.png);
@@ -631,7 +631,7 @@
     }
     .person-1 {
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 530px;
     }
     .person-1 p {
@@ -661,7 +661,7 @@
     }
     .person-3 {
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 750px;
     }
     .person-3 p {
@@ -691,7 +691,7 @@
     }
     .person-5 {
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 970px;
     }
     .person-5 p {
@@ -721,7 +721,7 @@
     }
     .person-7 {
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 1190px;
     }
     .person-7 p {
@@ -751,7 +751,7 @@
     }
     .person-9 {
         position: absolute;
-        left: 17%;
+        left: 16%;
         top: 1410px;
     }
     .person-9 p {
@@ -781,7 +781,7 @@
     }
     .person-11 {
         position: absolute;
-        left: 39.5%;
+        left: 39%;
         top: 1630px;
     }
     .person-11 p {
