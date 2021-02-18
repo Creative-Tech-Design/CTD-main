@@ -110,45 +110,46 @@
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.about {
-  margin-left: 176px;
-  margin-top: 125px;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
-  line-height: 58px;
-  /* midlle */
+.about-hero {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 10% 50px 10%;
   color: #4352b1;
 }
 
-.about-mac {
-  background-image: url(./img/baskin.png);
-  height: 285px;
-  width: 407px;
-  position: absolute;
-  left: 60%;
-  top: 190px;
+.about-hero img {
+  border-radius: 30px;
+  height: 17.75em;
+  width: 50em;
+  object-fit: cover;
 }
 
-.description {
+.about-hero-text {
+  display: block;
+}
+
+.about-hero-text h1 {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 58px;
+}
+
+.about-hero-text p {
   margin-right: 43%;
   margin-top: 35px;
-  margin-left: 176px;
   font-family: Nunito;
-  font-style: normal;
   font-weight: 500;
   font-size: 27px;
   line-height: 32px;
-  /* grey */
   color: #272727;
 }
 
-.graphic {
-  background-image: url(./img/graphic-about.png);
-  height: 210px;
-  width: 550px;
-  margin-top: 25px;
+svg {
+  margin-left: -20%;
 }
 
 .board-container {
@@ -161,6 +162,7 @@
   text-align: center;
   align-items: center;
   max-height: auto;
+  margin-top: 5%;
 }
 
 h2 {
@@ -317,4 +319,16 @@ h2 {
 
 .section-split a:hover span {
   display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+  .board {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .board {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
