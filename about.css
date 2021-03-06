@@ -6,6 +6,19 @@
   position: fixed;
   width: 100%;
   z-index: 3;
+  max-width: 100%;
+}
+
+body {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 .header ul {
@@ -102,7 +115,8 @@
 }
 
 .ctd-nav {
-  margin-top: 10px;
+  margin: 10px;
+  height: 46px;
 }
 
 .nav-line {
@@ -253,6 +267,7 @@ h2 {
   column-gap: 4em;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -319,6 +334,35 @@ h2 {
 
 .section-split a:hover span {
   display: block;
+}
+
+@media only screen and (max-width: 1200px) {
+  svg {
+    display: none;
+  }
+
+  .about-hero {
+    margin: 100px 5% 50px 5%;
+  }
+
+  .about-hero-text h1 {
+    font-size: 40px;
+  }
+
+  .about-hero img {
+    border-radius: 30px;
+    height: 17.75em;
+    width: 50em;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .about-hero-text p {
+    margin-right: 20%;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
