@@ -136,8 +136,7 @@ header {
 
 .about-hero img {
   border-radius: 30px;
-  height: 17.75em;
-  width: 50em;
+  width: 40%;
   object-fit: cover;
 }
 
@@ -163,7 +162,7 @@ header {
 }
 
 svg {
-  margin-left: -20%;
+  margin-left: -25%;
 }
 
 .board-container {
@@ -349,12 +348,6 @@ h2 {
     font-size: 40px;
   }
 
-  .about-hero img {
-    border-radius: 30px;
-    height: 17.75em;
-    width: 50em;
-  }
-
   h2 {
     font-size: 40px;
   }
@@ -374,5 +367,10 @@ h2 {
 @media only screen and (max-width: 600px) {
   .board {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-hero img {
+    width: 50%;
+    border-radius: 25px;
   }
 }
