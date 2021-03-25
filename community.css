@@ -12,6 +12,10 @@ body {
   margin: 0px 0px 10px 0px;
   padding: 0px;
   width: 100%;
+  background-image: url("./img/blue-wave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -122,15 +126,6 @@ header {
 .nav-line {
   border: 1px solid #d8d8d8;
   transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-.wave {
-  position: fixed;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-  margin-top: -600px;
-  display: block;
 }
 
 .hero-content {
@@ -378,11 +373,122 @@ div#mce-success-response {
   }
 }
 
-@media only screen and (max-width: 1200px) {
-}
-
 @media only screen and (max-width: 1000px) {
+  .hero-content {
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .hero-content img {
+    display: none;
+  }
+
+  .text-content {
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    text-align: left;
+  }
+
+  .contact-section {
+    display: block;
+    margin: 0px 5%;
+  }
+
+  .social-button {
+    align-items: left;
+  }
+
+  .social-media h2 {
+    text-align: left;
+  }
+
+  .social-button p {
+    display: none;
+  }
+
+  .social-media img {
+    margin-right: 5em;
+  }
+
+  .all-social-buttons {
+    display: flex;
+    justify-content: left;
+  }
+
+  /* Start Form */
+  .join {
+    display: block;
+    margin: 10% 10% 10% 0;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .hi {
+    padding: 10px 30px 0px 30px;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+  }
+
+  #mc_embed_signup_scroll {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+  #mc_embed_signup_scroll .gridformat {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  #mc_embed_signup_scroll .gridformat > input {
+    box-sizing: border-box;
+    color: black;
+    border: solid 2px black;
+    padding: 1rem 2rem;
+    margin-top: -0.25rem;
+    width: 100%;
+  }
+
+  /* End Form */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  .text-content h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .text-content h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .all-social-buttons {
+    justify-content: space-around;
+  }
+
+  .social-media h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .social-media img {
+    width: 40px;
+    margin-right: 0;
+  }
+
+  .join {
+    margin-left: -3%;
+  }
+
+  .hi h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hi p {
+    font-size: 17px;
+    text-align: center;
+  }
 }
