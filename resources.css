@@ -1,11 +1,23 @@
 .header {
-  margin-top: -8px;
+  margin-top: 0;
   height: 70px;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 3;
+}
+
+body {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 .header ul {
@@ -27,6 +39,7 @@
 .header .menu-btn:hover {
   background-color: #f4f4f4;
 }
+
 /* menu */
 
 .header .menu {
@@ -34,11 +47,11 @@
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+
 /* menu icon */
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
   float: right;
   padding: 28px 20px;
   position: relative;
@@ -72,6 +85,7 @@
 .header .menu-icon .navicon:after {
   top: -5px;
 }
+
 /* menu btn */
 
 .header .menu-btn {
@@ -80,6 +94,7 @@
 
 .header .menu-btn:checked ~ .menu {
   max-height: 340px;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -109,212 +124,123 @@
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-body {
-  padding: 0px 0px 50px 0px;
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0 100px 10%;
 }
 
-h2 {
-  color: #4352b1;
-  text-align: center;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 24px;
-  margin-bottom: 2em;
+.hero-content img {
+  margin-top: 10%;
+  object-fit: cover;
 }
 
-.resources {
-  margin-top: 125px;
-  margin-left: 171px;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 38px;
-  line-height: 58px;
-  /* midlle */
-  color: #4352b1;
+.text-content {
+  width: 90%;
+  margin-right: 5%;
 }
 
-.extra {
-  margin-right: 34%;
-  margin-top: 35px;
-  margin-left: 176px;
-  font-family: Nunito;
-  font-style: normal;
+.text-content h1 {
+  font-family: "Poppins";
   font-weight: 500;
-  font-size: 27px;
+  font-size: 35px;
+  color: #4352b1;
+}
+
+.text-content h3 {
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 32px;
-  /* grey */
   color: #272727;
 }
 
-.text {
-  margin-top: 120px;
-  margin-left: 163px;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 24px;
-  /* or 60% */
+.resource-section {
+  margin: 0 10% 100px 10%;
+}
+
+.resource-section h2 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 35px;
   color: #4352b1;
 }
 
-span.change {
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  /* dark */
-  color: #021f42;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-left: 27%;
-}
-
-.date {
+.cards {
   margin-top: 30px;
-  margin-left: 163px;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+  height: 328px;
 }
 
-span.event {
-  margin-left: 20%;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 24px;
-  /* or 60% */
-  color: #4352b1;
-  color: #4352b1;
+.card {
+  background-color: #dee7fe7c;
+  border-radius: 30px;
+  padding: 40px;
+  max-width: 288px;
+  max-height: 288px;
+  margin-right: 33px;
+  text-decoration: none;
 }
 
-span.event1 {
-  margin-left: 10%;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 24px;
-  /* or 60% */
-  color: #4352b1;
-  color: #4352b1;
+.card img {
+  height: 159px;
+  border-radius: 24px;
 }
 
-span.event2 {
-  margin-left: 10%;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 24px;
-  /* or 60% */
-  color: #4352b1;
-  color: #4352b1;
+.upcoming-card-text {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  white-space: normal;
+  text-align: center;
 }
 
-span.change-1 {
+.upcoming-card-text #title {
+  font-family: "Avenir";
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  color: #ff664d;
+}
+
+.upcoming-card-text #desc {
+  font-family: "Avenir";
+  font-weight: 300;
   font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  /* dark */
   color: #021f42;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-left: 42.55%;
 }
 
-.row1 {
-  margin-top: 40px;
-  margin-left: 16%;
+.card-text {
+  line-height: 10px;
 }
 
-.line-1 {
-  border: 1px solid #4352b1;
-  width: 1084px;
-  height: 0px;
-  margin-left: 150px;
-  margin-top: 20px;
+.card-text #card-title {
+  font-family: "Avenir Medium";
+  font-size: 25px;
+  color: #021f42;
 }
 
-.talent-desc {
-  font-family: Nunito;
+.card-text #category {
+  font-family: "Avenir";
+  font-size: 15px;
+  color: #ff664d;
+}
+
+.card-text #date {
+  font-family: "Avenir";
   font-style: italic;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 33px;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 20px;
-  text-align: center;
+  font-size: 15px;
   color: #000000;
 }
 
-.match {
-  margin-top: 25px;
-  background: #ff664d;
-  border-radius: 40px;
-  width: 257px;
-  height: 48px;
-  text-align: center;
-  margin-left: 41%;
-}
-
-.match p1 {
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 45px;
-  color: #ffffff;
-}
-
-.acm {
-  margin-top: 65px;
-  margin-left: 20%;
-}
-
-.JustDesign {
-  margin-top: 35px;
-  margin-left: 13%;
-}
-
-.keep {
-  margin-top: 107px;
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 24px;
-  /* or 60% */
-  color: #021f42;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.socials-1 {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 41%;
-  margin-right: 41%;
-}
-
-.line {
-  border: 1px solid #d8d8d8;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  margin-top: 50px;
-}
-
-.closer {
-  font-family: sofia-pro, sans-serif;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  color: #4352b1;
+svg {
+  margin-left: 25%;
 }
 
 @media only screen and (max-width: 750px) {
