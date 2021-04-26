@@ -104,24 +104,24 @@ h2 {
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
   max-height: 340px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -501,6 +501,7 @@ h2 {
   body {
     padding: 0px 0px 102px 0px;
   }
+
   .title {
     margin-top: 91px;
     margin-left: 31px;
@@ -508,11 +509,13 @@ h2 {
     font-size: 18px;
     line-height: 27px;
   }
+
   .sub {
     margin-left: 31px;
     font-size: 14px;
     line-height: 19px;
   }
+
   .description {
     margin-top: 12px;
     margin-left: 31px;
@@ -521,6 +524,7 @@ h2 {
     font-size: 14px;
     line-height: 19px;
   }
+
   .upcoming {
     margin-top: 12px;
     margin-left: 31px;
@@ -528,6 +532,7 @@ h2 {
     font-size: 11px;
     line-height: 15px;
   }
+
   .fb_top {
     position: absolute;
     right: 20%;
@@ -535,6 +540,7 @@ h2 {
     width: 21px;
     height: 21px;
   }
+
   .yt_top {
     position: absolute;
     right: 20%;
@@ -542,6 +548,7 @@ h2 {
     width: 21px;
     height: 21px;
   }
+
   .link_top {
     position: absolute;
     right: 20%;
@@ -549,6 +556,7 @@ h2 {
     width: 21px;
     height: 21px;
   }
+
   .drib_top {
     position: absolute;
     right: 20%;
@@ -556,8 +564,9 @@ h2 {
     width: 21px;
     height: 21px;
   }
-  .logo {
-  }
+
+  .logo {}
+
   .logo__w {
     position: absolute;
     width: 110px;
@@ -565,7 +574,9 @@ h2 {
     left: 37%;
     top: 310px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: none;
   }
+
   .vector {
     margin-top: -200px;
     background-image: url(./img/blue.png);
@@ -574,6 +585,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .foster {
     margin-top: -46vh;
     margin-left: 19%;
@@ -585,6 +597,7 @@ h2 {
     font-size: 14px;
     color: #021f42;
   }
+
   .what {
     font-size: 18px;
     line-height: 27px;
@@ -592,78 +605,95 @@ h2 {
     top: 700px;
     left: 37%;
   }
+
   .one {
     position: absolute;
     top: 750px;
     left: 10%;
     width: 35%;
   }
+
   .one p1 {
     font-size: 11px;
     line-height: 15px;
   }
+
   .one p2 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .one p3 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .two {
     position: absolute;
     top: 750px;
     left: 60%;
     width: 35%;
   }
+
   .two p1 {
     font-size: 11px;
     line-height: 15px;
   }
+
   .two p2 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .two p3 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .three {
     position: absolute;
     top: 1050px;
     left: 10%;
     width: 35%;
   }
+
   .three p1 {
     font-size: 11px;
     line-height: 15px;
   }
+
   .three p2 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .three p3 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .four {
     position: absolute;
     top: 1050px;
     left: 60%;
     width: 35%;
   }
+
   .four p1 {
     font-size: 11px;
     line-height: 15px;
   }
+
   .four p2 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .four p3 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .resources {
     background: #ff664d;
     border-radius: 40px;
@@ -673,13 +703,16 @@ h2 {
     margin-top: 920px;
     margin-left: 30%;
   }
+
   .resources p1 {
     font-size: 12.5px;
     line-height: 30px;
   }
+
   .graphic {
     display: none;
   }
+
   .join {
     width: 237px;
     height: 220px;
@@ -690,14 +723,17 @@ h2 {
     margin-left: 18%;
     padding: 30px 41px 43px 44px;
   }
+
   .join p1 {
     font-size: 14px;
     line-height: 41px;
   }
+
   .join p2 {
     font-size: 13px;
     line-height: 18px;
   }
+
   .connect {
     background: #ff664d;
     border-radius: 40px;
@@ -707,6 +743,7 @@ h2 {
     margin-top: -70px;
     margin-left: 37vw;
   }
+
   .connect p1 {
     font-family: sofia-pro, sans-serif;
     font-style: normal;
@@ -715,6 +752,7 @@ h2 {
     line-height: 30px;
     color: #ffffff;
   }
+
   .keep {
     margin-top: 65px;
     font-size: 18px;
@@ -760,17 +798,21 @@ h2 {
 }
 
 @media (min-width: 48em) {
+
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 20px 30px;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
